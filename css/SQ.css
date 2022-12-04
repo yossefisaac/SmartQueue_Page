@@ -1,3 +1,4 @@
+
 .app {
   display: flex;
   background-color: rgba(244, 244, 244, 0.737);
@@ -172,6 +173,7 @@
   position: relative;
   min-width: 40px;
   margin: 0px 0px 5px;
+  text-decoration: none;
 }
 
 .row1 > .spacer {
@@ -224,6 +226,7 @@
   object-position: center top;
   position: relative;
   min-width: 55px;
+  text-decoration: none;
 }
 
 .row2 > .spacer {
@@ -922,4 +925,8 @@
   .subtitle2 {
     margin: 3px 16px 0px;
   }
+}
+
+.link-row-left{
+  text-decoration: none;
 }
